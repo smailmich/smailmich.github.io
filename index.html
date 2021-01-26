@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Послуги</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="row">
+
+                    <div class="menu">
+                        <div class="col-3 center menu_duo">
+                            <a href="info/index.html" class="menu_item">Про нас</a>
+                            <a href="#serv" class="menu_item">Послуги</a>
+                        
+                        </div>
+    
+               
+                        <div class="col-4 center menu_duo">
+                            <a href="command/index.html" class="menu_item">Наша команда</a>
+                            
+                            <a href="contacts/index.html" class="menu_item">Контакти</a>
+                        
+                        </div>
+    
+        
+                        <div class="col-3 center menu_duo">
+                            <a href="clients/index.html" class="menu_item">Клієнти</a>
+                            <a href="questions/index.html" class="menu_item">Питання/Відповіді</a>
+                        
+                        </div>
+    
+       
+                        <div class="col-2 cent menu_lang">
+                            <button class="nav_btn">UK</button>
+                            <button class="nav_btn">EN</button>
+                            <button class="nav_btn">RU</button>
+                        </div>
+                    </div>
+
+                   
+                        <div class="burger" id="burger">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                   
+                    
+    
+            </div>
+        </div>
+    </nav>
+    <a name="serv"></a>
+
+    <div id="blacked" ></div>
+
+    <section class="logo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="info/index.html"><img src="icons/trianglek.png" alt="logo"  class="animate__animated animate__flipInY k logo_logotype"></a>
+                <div class="k_text animate__animated animate__fadeInDown">Компетентність</div>
+                <a href="info/index.html"><img src="icons/trianglea.png" alt="logo"  class="animate__animated animate__flipInY a logo_logotype"></a>
+                <div class="a_text animate__animated animate__fadeInDown">Авторство</div>
+                <a href="info/index.html"><img src="icons/trianglei.png" alt="logo"  class="animate__animated animate__flipInY i logo_logotype"></a>
+                <div class="i_text animate__animated animate__fadeInDown">Індивідуальність</div>
+
+            </div>
+            <div class="col-md-6 call">
+                
+                <div class="logo_phone">+380(99)999-99-99</div>
+                <a href="#" class="logo_email">email@email.com</a>
+                
+                <a class="logo_text open" id="logo_btn">Зв'яжіться з нами</a>
+                <img src="images/doci.png" alt="" class="logo_back_img">
+            </div>
+        </div>
+    </div>
+    </section>   
+
+    
+    <div class="container">
+        <form id="mailform"class="mail">
+            
+                <h2>Зворотній зв'язок</h2>
+                <div class="close"></div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-1"><input type="text" id="name" required name="name" placeholder="Впишіть Ваше ім'я" class="form-control"> </div>
+                    
+                    <div class="col-md-4 offset-md-2" ><input type="phone" id="phone" name="phone" placeholder="Впишіть Ваш телефон" class="form-control"> </div>
+
+                    <div class="col-md-4 offset-md-1 error" id="error_name"></div>
+                    
+                    <div class="col-md-4 offset-md-2 error" id="error_phone"><br></div>
+                    
+                    <div class="col-md-4 offset-md-1"><input type="email" id="email" name="email" placeholder="Впишіть Ваш email" class="form-control"></div>
+                    
+                    <div class="col-md-4 offset-md-2"><textarea type="message" id="message" name="message" placeholder="Впишіть Ваше повідомлення/питання" class="form-control"></textarea></div>
+
+                    <div class="col-md-4 offset-md-1 error" id="error_email"></div>
+                    
+                    <div class="col-md-4 offset-md-2 error" id="error_message"><br></div>
+                    
+                </div>
+                <br>
+                <div class="col-md-7 offset-md-4"><button type="button" id="sendmail" class="btn btn-success" >Відправити</button></div> 
+                <div id="errormessage"></div>
+           
+        </form>
+    </div>
+    
+
+
+    <section class="service">
+        <div class="container">
+            
+            <div class="service_list_head">Розробка: </div>
+            <ul class="service_list">
+                <li><a href="#" class="service_list_item">ТУ</a></li>
+                <li><a href="#" class="service_list_item">Паспортів безпеки (M)SDS</a></li>
+            </ul>
+            
+            <div class="service_list_head">Реєстрація національних та</div>
+            <div class="service_list_head">закордонних:</div>
+                <ul class="service_list">
+                    <li><a href="#" class="service_list_item">Добрив, пестицидів, регуляторів росту</a></li>
+                    <li><a href="#" class="service_list_item">Дезинфікаційних засобів</a></li>
+                    <li><a href="#" class="service_list_item">Ветпрепаратів та кормових добавок</a></li>
+                </ul>
+                
+            <div class="service_list_head">Допомога в отриманні: </div>
+            <ul class="service_list">
+                <li><a href="#" class="service_list_item">Висновків СЕС</a></li>
+                <li><a href="services/iso/index.html" class="service_list_item">Сертифікатів про підтвердження якості по системі ISO</a></li>
+                <li><a href="services/accordance/index.html" class="service_list_item">Сертифікатів та декларацій відповідності</a></li>
+            </ul>
+
+            <div class="service_list_head">Організація:</div>
+            <ul class="service_list">
+                <li><a href="#" class="service_list_item">Лабораторних досліджень</a></li>
+            </ul>
+
+            <div class="service_list_head">Допомога:</div>
+            <ul class="service_list">
+                <li><a href="#" class="service_list_item">В оформленні етикеток</a></li>
+            </ul>
+
+            <div class="mobile">
+                <a class="mobile_text open" id="mobile_btn">Зв'яжіться з нами</a>
+            </div>
+            
+            
+        </div>
+        <div class="scroll-up" id="scroll-up">  <i class="arrow up"></i> </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="icons_wrap">
+                <img src="icons/znak1.png" alt="" class="icons_wrap_item">
+                <img src="icons/znak2.png" alt="" class="icons_wrap_item">
+                <img src="icons/znak3.png" alt="" class="icons_wrap_item">
+                <img src="icons/znak4.png" alt="" class="icons_wrap_item">
+                <img src="icons/znak5.png" alt="" class="icons_wrap_item">
+            </div>
+            <span>Всі права захищено ©2020-2021</span> 
+        </div>
+       
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+</body>
+</html>
